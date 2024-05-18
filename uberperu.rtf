@@ -6,18 +6,7 @@
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 from keplergl import KeplerGl\
-import base64\
 import pandas as pd\
-import IPython\
-\
-from keplergl import KeplerGl\
-import base64\
-import pandas as pd\
-import IPython\
-\
-# Load your Peru Uber dataset into a DataFrame (replace 'peru_uber.csv' with your actual dataset)\
-df_peru_uber = pd.read_csv('uber_peru_2010_cleaned.csv')\
-\
 \
 # Load your Peru Uber dataset into a DataFrame (replace 'peru_uber.csv' with your actual dataset)\
 df_peru_uber = pd.read_csv('uber_peru_2010_cleaned.csv')\
@@ -38,11 +27,5 @@ map1.config = \{\
 # Add data to the map\
 map1.add_data(data=df_peru_uber, name='Peru Uber Data')\
 \
-# Convert the map to HTML\
-orig_html = map1._repr_html_()\
-\
-# Ensure orig_html is of type str\
-if isinstance(orig_html, bytes):\
-    orig_html = orig_html.decode()\
-\
-# Encode }
+# Save the map as an HTML file\
+map1.save_to_html(file_name='keplergl_map.html')}
