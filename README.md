@@ -28,11 +28,13 @@ FLASK_ENV=development
 ```
 
 ## Data Processing
+
 Extract: Download the dataset from Kaggle and place it in the data/ directory.
 
 ## Transform:
 
 ## Data Cleaning: Handle missing values and outliers.
+
 Feature Engineering: Generate features from geo, temporal, and user data.
 
 ## Data Integration: Combine features into a single dataset.
@@ -41,6 +43,7 @@ Load:
 Store the processed data in a database or file storage system.
 
 ## Machine Learning
+
 Training Models: Run the train_model.py script to train linear regression and random forest models.
 
 ```
@@ -50,6 +53,7 @@ python train_model.py
 Evaluate Models: Check the performance metrics of the trained models.
 
 ## Web Application
+
 Run Locally:
 
 
@@ -59,6 +63,7 @@ flask run
 Access the application at http://localhost:5000.
 
 ## Contributing
+
 Feel free to open issues or submit pull requests. Please follow the contribution guidelines:
 
 Fork the repository.
