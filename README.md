@@ -1,20 +1,28 @@
                                                  UML Pipeline Design
 <img width="1352" alt="Screenshot 2024-06-08 at 10 12 14" src="https://github.com/Huiping27/uberperu/assets/161333572/a38ba7c9-e193-4953-8c6d-a1df7338a204">
 
-This project involves analyzing Uber data to predict ride prices using machine learning models. The analysis focuses on geo data, temporal data, and user data. A Flask web application is developed to provide predictions, and the application is deployed using Docker.
+
+This project involves analyzing Uber data to predict ride prices using machine learning models. The analysis focuses on geo data, temporal data, and user data. A Flask web application is developed to provide predictions.
+
+
 
 ## Project Overview
+
 Data Source: Uber dataset from Kaggle.
+
 ## Tech Stack:
+
 Data Analysis: Python, Pandas, Scikit-learn
 Machine Learning: Linear Regression, Random Forest
 Web Application: Flask
 
 ## Installation
+
 Prerequisites
 Python 3.8 or later
 
 ## Set Up the Environment
+
 1. **Install Dependencies**
 
     ```pip install -r requirements.txt
